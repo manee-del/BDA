@@ -1,0 +1,9 @@
+scenario,method,subset,n,mae,rmse
+Normal,Persistence,All,13341,5.6086046575968815,8.594293083167319
+Normal,Persistence,Pollution peaks,0,,
+Normal,Linear regression,All,13341,6.560215714306476,9.113313388422931
+Normal,Linear regression,Pollution peaks,0,,
+20% missing PM2.5,Persistence,All,13340,6.376527510832082,9.971171068470538
+20% missing PM2.5,Persistence,Pollution peaks,0,,
+20% missing PM2.5,Linear regression,All,13340,7.381212275137345,10.569662406459445
+20% missing PM2.5,Linear regression,Pollution peaks,0,,

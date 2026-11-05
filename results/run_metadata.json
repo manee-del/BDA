@@ -1,0 +1,47 @@
+{
+  "application_id": "application_1793887848695_0001",
+  "master": "yarn",
+  "spark_version": "3.5.7",
+  "raw_records": 70227,
+  "clean_records": 70227,
+  "invalid_timestamps": 0,
+  "duplicate_station_hours": 0,
+  "missing_pm25": 0,
+  "train_records": 56868,
+  "test_records": 13341,
+  "split": "2019-07-01 00:00:00",
+  "peak_threshold": 302.5,
+  "features": [
+    "latest",
+    "lag1",
+    "mean3",
+    "hour_sin",
+    "hour_cos",
+    "temperature_filled",
+    "humidity_filled",
+    "wind_speed_filled"
+  ],
+  "coefficients": [
+    1.2048248496761613,
+    -0.5107467151888393,
+    0.23305644078739587,
+    -4.625280316579194,
+    1.584921934847644,
+    -0.5961447767738994,
+    -0.011856963687841404,
+    -0.2888476681761397
+  ],
+  "intercept": 24.251119302718653,
+  "date_range": {
+    "start": "2018-06-01 00:00:00",
+    "end": "2019-10-01 16:00:00"
+  },
+  "weather_correlations": {
+    "temperature": -0.5443893207677645,
+    "humidity": 0.14185434884632014,
+    "wind_speed": -0.13969418669112715
+  },
+  "runtime_seconds": 46.03580899599996,
+  "note": "Historical, publisher-cleaned data; timezone assumed Asia/Kolkata. Replay is not live monitoring.",
+  "records_per_second": 1525.4863883482967
+}

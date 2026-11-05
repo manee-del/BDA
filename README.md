@@ -23,6 +23,10 @@ After the initial setup, start the saved cluster with `-Action start`. Use `-Act
 
 The project source lives in this Windows folder. The launcher copies source and data into `/home/manee/delhi-air-lab` because the snap Docker engine works with Linux-home paths. `-Action run` copies the results back here. Do not edit the Linux copy separately.
 
+## Streamlit Community Cloud
+
+Deploy repository `manee-del/BDA`, branch `main`, with entrypoint `streamlit_app.py` and Python 3.13. No API keys are needed. The repository includes the six attributed public source CSVs and saved Spark result tables, so the cloud app does not run Hadoop or require Docker. Logs, screenshots, incoming API data and secrets are excluded. The cloud entrypoint hides laptop-only cluster links. Re-run the local pipeline and commit updated result tables to refresh the hosted demo.
+
 ## Demonstration
 
 The opening **Dataset explained** tab introduces the six source CSVs, their columns and date coverage. Select stations and dates to compare daily PM2.5 averages, preview readings and download the matching data. Coverage and empty-value checks always describe the complete source dataset.

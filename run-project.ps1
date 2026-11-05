@@ -5,7 +5,7 @@ $linuxRoot = '/home/manee/delhi-air-lab'
 $windowsRoot = $PSScriptRoot.Replace('\','/')
 $linuxSource = '/mnt/' + $windowsRoot.Substring(0,1).ToLower() + $windowsRoot.Substring(2)
 if ($Action -eq 'dashboard') {
-    python -m streamlit run app.py
+    python -m streamlit run app.py --server.address 127.0.0.1
     exit $LASTEXITCODE
 }
 if ($Action -in @('setup','start','run','status')) {

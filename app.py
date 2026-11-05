@@ -1,5 +1,6 @@
 """Simple dashboard over actual outputs from the Spark-on-YARN job."""
 import json
+import os
 from pathlib import Path
 import pandas as pd
 import streamlit as st
@@ -28,8 +29,11 @@ st.sidebar.header('Explore the project')
 station = st.sidebar.selectbox('Station', sorted(normal.station.unique()))
 scenario = st.sidebar.radio('Readings', ['Normal', '20% missing PM2.5'])
 st.sidebar.caption('Missing readings are deliberately hidden during evaluation. They are not extra observations.')
-st.sidebar.markdown('[HDFS](http://localhost:9870) · [YARN](http://localhost:8088) · [Spark history](http://localhost:18080)')
-st.sidebar.caption('Cluster pages require the Ubuntu cluster to be running.')
+if os.environ.get('DELHI_AIR_HOSTED') == '1':
+    st.sidebar.caption('Hosted demo using saved Spark results. Hadoop training runs separately on the project laptop.')
+else:
+    st.sidebar.markdown('[HDFS](http://localhost:9870) · [YARN](http://localhost:8088) · [Spark history](http://localhost:18080)')
+    st.sidebar.caption('Cluster pages require the Ubuntu cluster to be running.')
 st.sidebar.caption('Source: Sonawani and Patil, Mendeley Data, DOI 10.17632/bzhzr9b64v.1 · CC BY 4.0')
 dataset_tab, replay_tab, results_tab, data_tab, how_tab = st.tabs(['Dataset explained', 'Replay demo', 'Model results', 'Pollution patterns', 'How it works'])
 selected = (normal if scenario == 'Normal' else missing)
