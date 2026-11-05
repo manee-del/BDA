@@ -1,0 +1,40 @@
+name: delhi-air-lab
+services:
+  master:
+    image: delhi-air-lab:1
+    build: ./cluster
+    hostname: master
+    environment:
+      ROLE: master
+      SPARK_DAEMON_MEMORY: 256m
+    ports:
+      - "127.0.0.1:9870:9870"
+      - "127.0.0.1:8088:8088"
+      - "127.0.0.1:18080:18080"
+      - "127.0.0.1:4040:4040"
+    volumes:
+      - master-data:/data
+      - .:/project
+    mem_limit: 2500m
+  worker1:
+    image: delhi-air-lab:1
+    hostname: worker1
+    environment:
+      ROLE: worker
+    volumes:
+      - worker1-data:/data
+    mem_limit: 2500m
+    depends_on: [master]
+  worker2:
+    image: delhi-air-lab:1
+    hostname: worker2
+    environment:
+      ROLE: worker
+    volumes:
+      - worker2-data:/data
+    mem_limit: 2500m
+    depends_on: [master]
+volumes:
+  master-data:
+  worker1-data:
+  worker2-data:

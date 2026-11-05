@@ -1,0 +1,114 @@
+{
+  "title": "Delhi Multi-Site Air-Quality Data Set",
+  "authors": [
+    "Shilpa Sonawani",
+    "Kailas Patil"
+  ],
+  "doi": "10.17632/bzhzr9b64v.1",
+  "source": "https://data.mendeley.com/datasets/bzhzr9b64v/1",
+  "license": "CC BY 4.0",
+  "files": [
+    {
+      "filename": "AshokVihar_Hourly.csv",
+      "id": "22eebee2-c4aa-4d3f-b276-f72fbfdd0d55",
+      "content_details": {
+        "id": "822d1d72-b7f7-49a0-86ab-e437371ef5e6",
+        "sha256_hash": "03f49a4e5ebea50c08e911ead7581e8414b262aea8a66122c27d6089f364234b",
+        "content_type": "application/vnd.ms-excel",
+        "size": 1353583,
+        "created_date": "2021-11-08T17:36:03.553Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/bzhzr9b64v/files/22eebee2-c4aa-4d3f-b276-f72fbfdd0d55/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/bzhzr9b64v/files/22eebee2-c4aa-4d3f-b276-f72fbfdd0d55/file_viewed",
+        "download_expiry_time": "2126-10-30T06:12:04.172144004Z"
+      },
+      "size": 1353583,
+      "last_modified_date": "2021-11-08T17:36:03.553Z",
+      "status": "COMPLETED"
+    },
+    {
+      "filename": "DCStadium_Hourly.csv",
+      "id": "a5db639a-4c2a-43a5-94e1-9cd99a2536f1",
+      "content_details": {
+        "id": "be596e2b-9c13-4b61-9d9c-beed7f1464c9",
+        "sha256_hash": "9aa78158c979d7e3a4e7cbb2b6b2bf44a22cd2fd9c19f5e0c77dfc15a02ee340",
+        "content_type": "application/vnd.ms-excel",
+        "size": 1366880,
+        "created_date": "2021-11-08T17:36:14.206Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/bzhzr9b64v/files/a5db639a-4c2a-43a5-94e1-9cd99a2536f1/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/bzhzr9b64v/files/a5db639a-4c2a-43a5-94e1-9cd99a2536f1/file_viewed",
+        "download_expiry_time": "2126-10-30T06:12:04.172148264Z"
+      },
+      "size": 1366880,
+      "last_modified_date": "2021-11-08T17:36:14.206Z",
+      "status": "COMPLETED"
+    },
+    {
+      "filename": "DwarkaSec8_Hourly.csv",
+      "id": "d09aa1b1-2858-43bd-9e39-d1521bd7d989",
+      "content_details": {
+        "id": "b3cdfe9e-7fdd-4b64-80e3-fc110f9ee221",
+        "sha256_hash": "089a67ad4cbf307b7c8b45caeb48d72a1a0046c9d2a1657beca90c26d4646657",
+        "content_type": "application/vnd.ms-excel",
+        "size": 1369233,
+        "created_date": "2021-11-08T17:36:22.605Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/bzhzr9b64v/files/d09aa1b1-2858-43bd-9e39-d1521bd7d989/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/bzhzr9b64v/files/d09aa1b1-2858-43bd-9e39-d1521bd7d989/file_viewed",
+        "download_expiry_time": "2126-10-30T06:12:04.172151474Z"
+      },
+      "size": 1369233,
+      "last_modified_date": "2021-11-08T17:36:22.605Z",
+      "status": "COMPLETED"
+    },
+    {
+      "filename": "Najafgarh_Hourly.csv",
+      "id": "296426d0-1d00-4bc3-98bc-7c95aee8dc7c",
+      "content_details": {
+        "id": "4afecc18-f81c-4bf6-aab3-a7f38a173e60",
+        "sha256_hash": "34ff394be53d83a171f03be614f17a64c888602d09bb5477c8037fa923c01615",
+        "content_type": "application/vnd.ms-excel",
+        "size": 1361046,
+        "created_date": "2021-11-08T17:36:26.641Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/bzhzr9b64v/files/296426d0-1d00-4bc3-98bc-7c95aee8dc7c/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/bzhzr9b64v/files/296426d0-1d00-4bc3-98bc-7c95aee8dc7c/file_viewed",
+        "download_expiry_time": "2126-10-30T06:12:04.172154404Z"
+      },
+      "size": 1361046,
+      "last_modified_date": "2021-11-08T17:36:26.641Z",
+      "status": "COMPLETED"
+    },
+    {
+      "filename": "NehruNagar_Hourly.csv",
+      "id": "a6ac1c86-6e54-414b-825c-9a7cc259d309",
+      "content_details": {
+        "id": "ccee1253-ad1c-401c-9669-21811edc6d81",
+        "sha256_hash": "4e84fe0713feaf284c6aa53d27a1d6cb012951535b4778b1f7baa2533276f1d8",
+        "content_type": "application/vnd.ms-excel",
+        "size": 1375285,
+        "created_date": "2021-11-08T17:36:35.612Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/bzhzr9b64v/files/a6ac1c86-6e54-414b-825c-9a7cc259d309/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/bzhzr9b64v/files/a6ac1c86-6e54-414b-825c-9a7cc259d309/file_viewed",
+        "download_expiry_time": "2126-10-30T06:12:04.172157625Z"
+      },
+      "size": 1375285,
+      "last_modified_date": "2021-11-08T17:36:35.612Z",
+      "status": "COMPLETED"
+    },
+    {
+      "filename": "Okhla_Hourly.csv",
+      "id": "35e9438b-baa8-4e11-b97f-28da31498289",
+      "content_details": {
+        "id": "9e0eb436-332d-4f54-b92a-e912f3f6c47b",
+        "sha256_hash": "8274e1c0f922e788646df5cc085559d4df41f1904ad038b956fe64a360314a41",
+        "content_type": "application/vnd.ms-excel",
+        "size": 1357507,
+        "created_date": "2021-11-08T17:36:49.545Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/bzhzr9b64v/files/35e9438b-baa8-4e11-b97f-28da31498289/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/bzhzr9b64v/files/35e9438b-baa8-4e11-b97f-28da31498289/file_viewed",
+        "download_expiry_time": "2126-10-30T06:12:04.172160625Z"
+      },
+      "size": 1357507,
+      "last_modified_date": "2021-11-08T17:36:49.545Z",
+      "status": "COMPLETED"
+    }
+  ]
+}
